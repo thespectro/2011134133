@@ -1,0 +1,10 @@
+E:\Proyectos\Visual Studio Projects\CajeroAutomatico\CajeroAutomatico.Entities\bin\Debug\CajeroAutomatico.Entities.dll
+E:\Proyectos\Visual Studio Projects\CajeroAutomatico\CajeroAutomatico.Entities\bin\Debug\CajeroAutomatico.Entities.pdb
+E:\Proyectos\Visual Studio Projects\CajeroAutomatico\CajeroAutomatico.Entities\obj\Debug\CajeroAutomatico.Entities.dll
+E:\Proyectos\Visual Studio Projects\CajeroAutomatico\CajeroAutomatico.Entities\obj\Debug\CajeroAutomatico.Entities.pdb
+E:\Proyectos\Visual Studio Projects\CajeroAutomatico\CajeroAutomatico.Entities\obj\Debug\CajeroAutomatico.Entities.csprojResolveAssemblyReference.cache
+D:\ale\programacion\programa\CajeroAutomatico\CajeroAutomatico.Entities\bin\Debug\CajeroAutomatico.Entities.dll
+D:\ale\programacion\programa\CajeroAutomatico\CajeroAutomatico.Entities\bin\Debug\CajeroAutomatico.Entities.pdb
+D:\ale\programacion\programa\CajeroAutomatico\CajeroAutomatico.Entities\obj\Debug\CajeroAutomatico.Entities.csprojResolveAssemblyReference.cache
+D:\ale\programacion\programa\CajeroAutomatico\CajeroAutomatico.Entities\obj\Debug\CajeroAutomatico.Entities.dll
+D:\ale\programacion\programa\CajeroAutomatico\CajeroAutomatico.Entities\obj\Debug\CajeroAutomatico.Entities.pdb
