@@ -19,15 +19,16 @@ namespace CajeroAutomatico.Entities
             this.saldo = saldo;
         }
 
-        public void DebitarMonto(decimal monto)
-        {
-            this.saldo = saldo-monto;
-        }
-
         public void AcreditarMonto(decimal monto)
         {
             this.saldo = saldo + monto;
         }
+
+        public void DebitarMonto(decimal monto)
+        {
+            this.saldo = saldo - monto;
+        }
+
 
         public int getPin()
         {

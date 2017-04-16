@@ -6,3 +6,11 @@ D:\ale\programacion\programa\CajeroAutomatico\CajeroAutomatico\bin\Debug\CajeroA
 D:\ale\programacion\programa\CajeroAutomatico\CajeroAutomatico\obj\Debug\2011134133.csprojResolveAssemblyReference.cache
 D:\ale\programacion\programa\CajeroAutomatico\CajeroAutomatico\obj\Debug\CajeroAutomatico.exe
 D:\ale\programacion\programa\CajeroAutomatico\CajeroAutomatico\obj\Debug\CajeroAutomatico.pdb
+C:\Users\PC\Desktop\2011134133\2011134133\2011134133\CajeroAutomatico\bin\Debug\2011134133.exe.config
+C:\Users\PC\Desktop\2011134133\2011134133\2011134133\CajeroAutomatico\bin\Debug\2011134133.exe
+C:\Users\PC\Desktop\2011134133\2011134133\2011134133\CajeroAutomatico\bin\Debug\2011134133.pdb
+C:\Users\PC\Desktop\2011134133\2011134133\2011134133\CajeroAutomatico\bin\Debug\CajeroAutomatico.Entities.dll
+C:\Users\PC\Desktop\2011134133\2011134133\2011134133\CajeroAutomatico\bin\Debug\CajeroAutomatico.Entities.pdb
+C:\Users\PC\Desktop\2011134133\2011134133\2011134133\CajeroAutomatico\obj\Debug\2011134133.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\2011134133\2011134133\2011134133\CajeroAutomatico\obj\Debug\2011134133.exe
+C:\Users\PC\Desktop\2011134133\2011134133\2011134133\CajeroAutomatico\obj\Debug\2011134133.pdb

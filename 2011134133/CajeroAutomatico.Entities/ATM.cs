@@ -9,10 +9,14 @@ namespace CajeroAutomatico.Entities
     public class ATM
     {
 
-        public RanuraDeposito ranuradeposito { set; get; }
-        public Teclado teclado { set; get; }
-        public DispensadorEfectivo dispensadorEfectivo { set; get; }
-        public Pantalla pantalla { set; get; }
+        public RanuraDeposito 
+            ranuradeposito { set; get; }
+        public Teclado 
+            teclado { set; get; }
+        public DispensadorEfectivo 
+            dispensadorEfectivo { set; get; }
+        public Pantalla 
+            pantalla { set; get; }
 
 
         public void login(BaseDatos bd)
@@ -25,17 +29,16 @@ namespace CajeroAutomatico.Entities
             {
 
 
-                Console.WriteLine("Ingrese el Numero de Cuenta y Presione Enter");
+                Console.WriteLine("Ingresar el Numero de Cuenta luego Presione Enter");
                 ncuenta = Console.ReadLine();
-                //validar q sea numero
-                //if (ncuenta.)
+                
                 int numberException = 0;
-                if (int.TryParse(ncuenta, out numberException))
-                { nroCuenta = int.Parse(ncuenta);}
+                if (int.TryParse(ncuenta, out numberException)) //Valida que el numero de cuenta sea un numero
+                { nroCuenta = int.Parse(ncuenta);}      
                 else
                 {nroCuenta = 0;}
 
-                Console.WriteLine("Ingrese el Pin y Presione Enter");
+                Console.WriteLine("Ingrese el Pin luego Presione Enter");
                 spin=Console.ReadLine();
                 if (int.TryParse(spin, out numberException))
                 {pin = int.Parse(spin);}
@@ -49,8 +52,8 @@ namespace CajeroAutomatico.Entities
                     break;
                 }else
                 {
-                    Console.WriteLine("Informacion de la Cuenta Incorrecta");
-                   // break;
+                    Console.WriteLine("La Cuenta es Incorrecta");
+                  
                 }
 
 
@@ -63,7 +66,7 @@ namespace CajeroAutomatico.Entities
         {
             String data;
             Operaciones lib = new Operaciones();
-            Console.WriteLine("Que operacion desea Realizar");
+            Console.WriteLine("Elija la operacion que desea Realizar");
             Console.WriteLine("1.Deposito");
             Console.WriteLine("2.Retiro");
             Console.WriteLine("9.Salir");

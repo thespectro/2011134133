@@ -15,7 +15,7 @@ namespace CajeroAutomatico.Entities
             decimal monto=0;
             decimal saldo;
             Console.WriteLine();
-            Console.WriteLine("Ingrese el Monto a Retirar y Presione Enter");
+            Console.WriteLine("Ingrese el Monto a Retirar luego Presione Enter");
             while (true)
             {
                 String data = Console.ReadLine();
@@ -36,7 +36,7 @@ namespace CajeroAutomatico.Entities
                         saldo = bd.ObtenerSaldoDisponible(nroCuenta);
                         Console.WriteLine("Nuevo Saldo Disponible:".PadRight(31) + " S/." + saldo);
                         Console.WriteLine();
-                        Console.WriteLine("Operacion Terminada, Retire la Tarjeta");
+                        Console.WriteLine("Transaccion Terminada, Puede retirar la Tarjeta");
                         break;
 
                     }
@@ -45,7 +45,7 @@ namespace CajeroAutomatico.Entities
                 }
                 else
                 {
-                    Console.WriteLine("Debe Ingresar un Numero Valido");
+                    Console.WriteLine("Numero invalido Ingrese otro");
                 }
             }
             

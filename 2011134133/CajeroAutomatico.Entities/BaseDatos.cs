@@ -10,8 +10,8 @@ namespace CajeroAutomatico.Entities
     {
         public List<Cuenta> listaCuentas { set; get; }
 
-        //definimos autenticar usuario Mediante una busqueda secuencial del nro de cuenta y el nro de pin
-        public bool AutenticarUsuario(int nroCuenta, int pin)
+        
+        public bool AutenticarUsuario(int nroCuenta, int pin) // se identifica al usuario segun sus datos
         {
             for (int i = 0; i < listaCuentas.Count; i++)
             {
@@ -26,9 +26,9 @@ namespace CajeroAutomatico.Entities
         public void agregarCuenta(Cuenta cuenta){
             this.listaCuentas.Add(cuenta);
         }
-        //Obtenemos el saldo tambien realizando una busqueda
+        
 
-        public decimal ObtenerSaldoDisponible(int nroCuenta)
+        public decimal ObtenerSaldoDisponible(int nroCuenta)  // se envia el numero de cuenta para saber el saldo disponible
         {
             for (int i = 0; i < listaCuentas.Count; i++)
             {
@@ -41,9 +41,9 @@ namespace CajeroAutomatico.Entities
         }
 
 
-        //debitamos el monto de la cuenta, previamente debemos haber validado que haya saldo disponible
+        
 
-        public void Debitar(int nroCuenta, decimal monto)
+        public void Debitar(int nroCuenta, decimal monto)  //segun el saldo disponilbe se resta la cantidad del monto de la cuenta
         {
             for (int i = 0; i < listaCuentas.Count; i++)
             {
@@ -54,8 +54,8 @@ namespace CajeroAutomatico.Entities
             }
         }
 
-        //acreditamos el monto  a la cuenta
-        public void Acreditar(int nroCuenta, decimal monto)
+        
+        public void Acreditar(int nroCuenta, decimal monto) // lo contrario al anterior osea se le suma 
         {
             for (int i = 0; i < listaCuentas.Count; i++)
             {
