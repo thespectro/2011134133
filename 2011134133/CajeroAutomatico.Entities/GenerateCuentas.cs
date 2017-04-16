@@ -35,7 +35,7 @@ namespace CajeroAutomatico.Entities
         public void ImprimirCuentas(List<Cuenta>listacuentas)         //se pasa como parametro la lista que se mostrara 
         {
             Console.WriteLine("NroCuenta".PadRight(15)+"Pin".PadRight(10)+"Saldo".PadRight(10));  //para identificar el numero de cuenta pin y sado se pone estas "columnas"
-            for (int i = 0; i < listacuentas.Count; i++)  // se crea un contador para 
+            for (int i = 0; i < listacuentas.Count; i++)  // se va llenado cada "columna" 
             {
                 Console.WriteLine(listacuentas[i].getNroCuenta().ToString().PadRight(15)+listacuentas[i].getPin().ToString().PadRight(10)+listacuentas[i].getSaldo().ToString().PadRight(10)); //se mostrara en consola las cuentas disponibles pasando como parametro la poscion
             }
