@@ -52,14 +52,14 @@ namespace CajeroAutomatico.Entities
 
         }
 
-        public void iniciarDeposito(BaseDatos bd, int nroCuenta)
+        public void iniciarDeposito(BaseDatos bd, int nroCuenta)  //para iniciar el deposito se crea el metodo y se envia como parametros la base de datos y el numero de cuenta que se digita
         {
 
             int numberException = 0;
             decimal monto = 0;
             decimal saldo;
             Console.WriteLine();
-            Console.WriteLine("Ingrese el Monto que desea Depositar y Presione Enter");
+            Console.WriteLine("Ingrese el Monto que desea Depositar luego Presione Enter");
             while (true)
             {
                 String data = Console.ReadLine();
@@ -73,12 +73,12 @@ namespace CajeroAutomatico.Entities
                         saldo = bd.ObtenerSaldoDisponible(nroCuenta);
                         Console.WriteLine("Nuevo Saldo Disponible:".PadRight(31) + " S/." + saldo);
                         Console.WriteLine();
-                        Console.WriteLine("Operacion Terminada, Retire la Tarjeta");
+                        Console.WriteLine("Operacion Terminada, Puede Retire la Tarjeta");
                         break;
                 }
                 else
                 {
-                    Console.WriteLine("Debe Ingresar un Numero Valido");
+                    Console.WriteLine("Debe Ingresar un Numero Valido"); //si se ingresa una letra o simbolo saldra este mensaje que no corresponde a la cantidad a depositar
                 }
             }
 
